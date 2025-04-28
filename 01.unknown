@@ -1,0 +1,100 @@
+# 1. Add two numbers
+a, b = 10, 5
+print("Add:", a + b)
+
+# 2. Subtract two numbers
+print("Subtract:", a - b)
+
+# 3. Multiply two numbers
+print("Multiply:", a * b)
+
+# 4. Divide two numbers
+print("Divide:", a / b)
+
+# 5. All operations
+print("All - Add:", a + b, "Subtract:", a - b, "Multiply:", a * b, "Divide:", a / b)
+
+# 6. Convert hours into minutes
+hours = 2
+print("Minutes:", hours * 60)
+
+# 7. Convert minutes into hours
+minutes = 120
+print("Hours:", minutes / 60)
+
+# 8. Convert dollars into Rs (1$ = 48 Rs)
+dollars = 10
+print("Rs:", dollars * 48)
+
+# 9. Convert Rs into dollars
+rs = 480
+print("Dollars:", rs / 48)
+
+# 10. Convert dollars into pound (1$ = 48 Rs, 1 Pound = 70 Rs)
+print("Pounds:", (dollars * 48) / 70)
+
+# 11. Convert grams into kg
+grams = 1000
+print("Kg:", grams / 1000)
+
+# 12. Convert kg into grams
+kg = 1
+print("Grams:", kg * 1000)
+
+# 13. Convert bytes into KB, MB, GB
+bytes = 1048576
+print("KB:", bytes / 1024)
+print("MB:", bytes / (1024**2))
+print("GB:", bytes / (1024**3))
+
+# 14. Celsius to Fahrenheit
+c = 25
+print("Fahrenheit:", (9/5 * c) + 32)
+
+# 15. Fahrenheit to Celsius
+f = 77
+print("Celsius:", 5/9 * (f - 32))
+
+# 16. Interest I = PRN / 100
+P, R, N = 1000, 5, 2
+print("Interest:", (P * R * N) / 100)
+
+# 17. Area and perimeter of square
+L = 4
+print("Square Area:", L**2, "Perimeter:", 4 * L)
+
+# 18. Area and perimeter of rectangle
+L, B = 5, 3
+print("Rectangle Area:", L * B, "Perimeter:", 2 * (L + B))
+
+# 19. Area of circle (pi ≈ 22/7)
+R = 7
+print("Circle Area:", (22/7) * R * R)
+
+# 20. Area of triangle
+H, L = 10, 5
+print("Triangle Area:", (H * L) / 2)
+
+# 21. Net Salary (10% allowance, 3% deduction)
+gross = 50000
+allowance = gross * 0.10
+deduction = gross * 0.03
+net_salary = gross + allowance - deduction
+print("Net Salary:", net_salary)
+
+# 22. Net sales after 10% discount
+gross_sales = 10000
+discount = gross_sales * 0.10
+net_sales = gross_sales - discount
+print("Net Sales:", net_sales)
+
+# 23. Average of 3 subjects
+s1, s2, s3 = 85, 90, 80
+total = s1 + s2 + s3
+average = total / 3
+print("Total:", total, "Average:", average)
+
+# 24. Swap two values
+x, y = 10, 20
+x, y = y, x
+print("Swapped values:", x, y)
